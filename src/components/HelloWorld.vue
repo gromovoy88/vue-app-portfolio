@@ -83,7 +83,7 @@
     <div class="container">
       <div class="row">
         <div class="col-6">Hello, my</div>
-        <div class="col-6">f**ckig world!</div>
+        <div class="col-6">f**ckig world!!!</div>
       </div>
     </div>
   </div>
