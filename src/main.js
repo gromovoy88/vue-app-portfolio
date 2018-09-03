@@ -6,6 +6,14 @@ import router from './router'
 import 'jquery'
 import 'popper.js'
 import 'bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faFacebookF, faInstagram, faCoffee)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
 
